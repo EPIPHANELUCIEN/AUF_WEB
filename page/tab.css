@@ -1,0 +1,97 @@
+/* header  */
+.logo{
+  height: auto;
+  width: 100px;
+  }
+  .header{
+      background-color: white;
+  }
+/* .tu tr{
+    border-left: solid 1px black !important;
+    border-left: solid 5px red !important;
+    background-color: aqua;
+    border: 5px solid green;
+} */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 98%;
+    margin: 0% 0% 0% 1% !important;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+  .tete{
+    border-bottom: solid 3px black;
+    background-image: url(../images/play/knCLgMx-wallpapers-1920x1080.jpg);
+  }
+
+
+  .decor
+  {
+  background-color: #1689ee !important;
+  width:80%;
+  height: 30px;
+  border-radius: 0% 0% 0% 0%;
+  text-align: center;
+  margin: 0% 0px 0px 10%;
+  }
+  .logo{
+  height: auto;
+  width: 100px;
+  }
+  .header{
+  background-color: #f2f2f2;
+  }
+  
+      /* fin header */
+      
+  .titre{
+          font-family: cooper;
+          font-weight: bold;
+          color: red;
+          animation-direction: alternate;
+      }
+   
+ /* footer */
+.lago{
+  height: auto;
+  width: 175px;
+  }
+  .foot{
+      background-color: red;
+      display: flex;
+      margin-top: 15px;
+  }
+  .m{
+      font-family: cooper;
+      color: black;
+      margin: 0% 30%;
+      text-align: center;
+     margin-top: -5px;
+  }
+  .m li{
+      list-style: none;
+  }
+  .m h2{
+    font-family: cooper;
+    color: black;
+  }
+/* footer */ 
+
+/* style */
+.e{
+  display: flex;
+}
+.p img{
+  height: 15em;
+  width: 25em;
+  margin: 2px;
+}

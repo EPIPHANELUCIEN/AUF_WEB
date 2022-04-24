@@ -1,0 +1,107 @@
+/* header  */
+.logo{
+    height: auto;
+    width: 100px;
+    }
+    .header{
+        background-color: white;
+    }
+/* decor */
+.decor{
+    background-color: #1689ee !important;
+    width:80%;
+    height: 30px;
+    border-radius: 0% 0% 0% 0%;
+    text-align: center;
+    margin: 0% 0px 0px 10%;
+  }
+  .titre{
+    font-family: cooper;
+    font-weight: bold;
+    color: red;
+    animation-direction: alternate;
+}
+
+body{
+    background-color: antiquewhite;
+}
+.containera {
+    border-radius: 5px;
+    /* background-color: #f2f2f2; */
+    background-image: url(../images/hd-water-splash-nw4nsy42hpgexcrz.jpg);
+   
+    padding: 20px;
+    width: 70% !important;
+    margin: 0% 0% 0% 15%;
+  }
+
+
+
+
+
+  /* form debut */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  /* form fin */
+/* footer */
+.lago{
+    height: auto;
+    width: 175px;
+    }
+    .foot{
+        background-color: red;
+        display: flex;
+    }
+    .m{
+        font-family: cooper;
+        color: black;
+        margin: 0% 30%;
+        text-align: center;
+       margin-top: -5px;
+    }
+    .m li{
+        list-style: none;
+    }
+ /* footer */
+  
+
+
+    .pub img{
+        height: 15em;
+        width: 25em;
+        margin: 2px;
+        
+    }
+    .pub {
+        display: flex;
+    }
+    .t{
+        font-size: 40px;
+        font-weight: bold;
+        font-family: cooper;
+    }
+    .our{
+        background-color: yellow;
+        height: 4em;
+        width: 10em;
+    }

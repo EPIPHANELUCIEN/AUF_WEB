@@ -1,0 +1,127 @@
+/* debut heder */
+.logo{
+height: auto;
+width: 100px;
+}
+.header{
+    background-color: white;
+}
+/* fin header */
+
+.titre{
+    font-family: cooper;
+    font-weight: bold;
+    color: red;
+    animation-direction: alternate;
+}
+
+body{
+    background-color: antiquewhite;
+}
+/* debut formu */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  /* fin form */
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+ 
+  /* carouselle */
+  .big{
+    width: 60% !important;
+ padding: 30px;
+ 
+  }
+  .bag{
+    background-color: yellow !important;
+    border-radius: 0px 250px;
+    margin-top: 15px;
+  }
+  .bag img{
+    height: 30em;
+    width: 40em;
+  }
+  .bag p{
+    color: white;
+  }
+  .bag h5{
+    color: aqua;
+    font-family: cooper;
+    font-weight: bold;
+  }
+  /* decor */
+  .decor{
+    background-color: #1689ee !important;
+    width:80%;
+    height: 30px;
+    border-radius: 0% 0% 0% 0%;
+    text-align: center;
+    margin: 0% 0px 0px 10%;
+  }
+  .for{
+    margin: 0% 0% 0% 5% !important;
+  }
+  /* footer */
+.lago{
+  height: auto;
+  width: 175px;
+  }
+  .foot{
+      background-color: red;
+      display: flex;
+  }
+  .m{
+      font-family: cooper;
+      color: black;
+      margin: 0% 30%;
+      text-align: center;
+     margin-top: -5px;
+  }
+  .m li{
+      list-style: none;
+  }
+/* footer */
+.ford button{
+  background-color: orange;
+  border: solid 1px beige;
+  width: 10em;
+  height: 4em;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+.ford a {
+  /* background-color: orange;
+  border: solid 1px beige;
+  width: 7em;
+  height: 3em;
+  margin-bottom: 10px; */
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+}
